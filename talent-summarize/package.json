@@ -1,0 +1,28 @@
+{
+  "name": "talent-summarize",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "core-js": "^3.6.5",
+    "luckyexcel": "^1.0.1",
+    "pdfjs-dist": "^3.2.146",
+    "vue": "^3.0.0",
+    "vue-pdf": "^4.3.0",
+    "vue-pdf-embed": "^1.1.5",
+    "vue3-pdfjs": "^0.1.6",
+    "webpack": "4",
+    "worker-loader": "^3.0.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/compiler-sfc": "^3.0.0",
+    "docx-preview": "^0.1.14"
+  }
+}
